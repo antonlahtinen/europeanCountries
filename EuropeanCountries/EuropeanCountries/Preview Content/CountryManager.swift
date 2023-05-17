@@ -19,7 +19,7 @@ class CountryManager: ObservableObject {
     }
     
     
-    let urlString = "https://wy3dsyi6k62vlns5tmm72zlbcu0vnxda.lambda-url.eu-north-1.on.aws/"
+    let urlString = ""
     
     private func loadCountriesWithURLSession() {
         if let url = URL(string: urlString) {
