@@ -8,4 +8,6 @@ My first iOS app using Swift and SwiftUI. Fetches information from URL about mem
 
 <img width="350" height="750" alt="Pic3" src="https://github.com/antonlahtinen/europeanCountries/assets/115111370/9d8f9036-df10-4c74-8d5a-e2afd47ce932">
 
-<img width="350" height="750" alt="Pic4" src="https://github.com/antonlahtinen/europeanCountries/assets/115111370/e80aee16-0911-4224-a167-7e11a5d3cac6">
+<img width="350" height="750" alt="Pic4" src="https://github.com/antonlahtinen/europeanCountries/assets/115111370/0ce7dce3-f9df-41ac-a4c0-0fbe4e9aff6f">
+
+
