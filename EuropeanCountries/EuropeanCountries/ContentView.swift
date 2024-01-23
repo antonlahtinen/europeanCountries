@@ -102,7 +102,7 @@ struct ContentView: View {
                         
                     }.tabItem{Label("Info", systemImage: "info.circle")
                     }
-                    .tag("Application Info")
+                    .tag("Information")
                 }
                 .navigationTitle(Text(tabTitle))
                 
@@ -125,44 +125,67 @@ struct ContentView_Previews: PreviewProvider {
 
 struct InfoScreen: View {
     
-    
-    
     var body: some View {
-       
-            VStack{
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
                 
-                Text("ICON INFO")
-                    .font(.headline)
+                
+                Divider()
+                
+                
+                Group {
+                    Text("Eurozone Membership")
+                        .font(.headline)
+                    
+                    HStack {
+                        Image(systemName: "eurosign.square.fill")
+                            .foregroundColor(.blue)
+                        Text("Country is part of the eurozone (€)")
+                    }
                     .padding()
-                
-                
-                Text("Country is part of eurozone (€)")
-                Image(systemName: "eurosign.square.fill").foregroundColor(.blue).frame(width: 21, height: 14)
+                    .background(Color.blue.opacity(0.1))
+                    .cornerRadius(10)
+                    
+                    HStack {
+                        Image(systemName: "eurosign.square.fill")
+                            .foregroundColor(.gray)
+                        Text("Country is NOT part of the eurozone (€)")
+                    }
                     .padding()
+                    .background(Color.gray.opacity(0.1))
+                    .cornerRadius(10)
+                }
                 
-                
-                Text("Country is NOT part of eurozone (€)")
-                Image(systemName: "eurosign.square.fill").foregroundColor(.gray)
-                    .frame(width: 21, height: 14)
+                Group {
+                    Text("Schengen Agreement")
+                        .font(.headline)
+                    
+                    HStack {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                        Text("Country is part of the Schengen agreement")
+                    }
                     .padding()
-                
-                
-                Text("Country is part of Schengen agreement")
-                Image(systemName: "star.fill")
-                    .frame(width: 21, height: 14)
-                    .foregroundColor(.yellow)
+                    .background(Color.yellow.opacity(0.1))
+                    .cornerRadius(10)
+                    
+                    HStack {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.gray)
+                        Text("Country is NOT part of the Schengen agreement")
+                    }
                     .padding()
-    
+                    .background(Color.gray.opacity(0.1))
+                    .cornerRadius(10)
+                }
                 
-                Text("Country is NOT part of Schengen agreement")
-                Image(systemName: "star.fill")
-                    .frame(width: 21, height: 14)
-                    .foregroundColor(.gray)
-                    .padding()
-            
             }
+            .padding()
         }
+        
     }
+}
+
 
 
 struct SearchBar: View {
