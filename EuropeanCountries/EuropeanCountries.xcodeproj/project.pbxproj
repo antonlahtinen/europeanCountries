@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E0C4C8CC2A15448100E859BD /* EuropeanCountriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4C8CB2A15448100E859BD /* EuropeanCountriesApp.swift */; };
 		E0C4C8CE2A15448100E859BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4C8CD2A15448100E859BD /* ContentView.swift */; };
-		E0C4C8D02A15448400E859BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C4C8CF2A15448400E859BD /* Assets.xcassets */; };
 		E0C4C8D32A15448400E859BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C4C8D22A15448400E859BD /* Preview Assets.xcassets */; };
 		E0C4C8DA2A1544BE00E859BD /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4C8D92A1544BE00E859BD /* Country.swift */; };
 		E0C4C8DC2A1544D000E859BD /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4C8DB2A1544D000E859BD /* CountryView.swift */; };
@@ -22,7 +21,6 @@
 		E0C4C8C82A15448000E859BD /* EuropeanCountries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuropeanCountries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C4C8CB2A15448100E859BD /* EuropeanCountriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeanCountriesApp.swift; sourceTree = "<group>"; };
 		E0C4C8CD2A15448100E859BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E0C4C8CF2A15448400E859BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C4C8D22A15448400E859BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0C4C8D92A1544BE00E859BD /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		E0C4C8DB2A1544D000E859BD /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
@@ -30,6 +28,10 @@
 		E0C4C8DF2A15450700E859BD /* CountryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryManager.swift; sourceTree = "<group>"; };
 		E0C4C8E12A15451F00E859BD /* MembershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E09668482CE4F5FE000B47BC /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E0C4C8C52A15448000E859BD /* Frameworks */ = {
@@ -42,6 +44,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E096683E2CE4F3AF000B47BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0C4C8D92A1544BE00E859BD /* Country.swift */,
+				E0C4C8DF2A15450700E859BD /* CountryManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E09668402CE4F3BB000B47BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0C4C8DD2A1544F300E859BD /* CountryDetailsView.swift */,
+				E0C4C8E12A15451F00E859BD /* MembershipView.swift */,
+				E0C4C8CD2A15448100E859BD /* ContentView.swift */,
+				E0C4C8DB2A1544D000E859BD /* CountryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E0C4C8BF2A15448000E859BD = {
 			isa = PBXGroup;
 			children = (
@@ -62,8 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				E0C4C8CB2A15448100E859BD /* EuropeanCountriesApp.swift */,
-				E0C4C8CD2A15448100E859BD /* ContentView.swift */,
-				E0C4C8CF2A15448400E859BD /* Assets.xcassets */,
+				E09668482CE4F5FE000B47BC /* Resources */,
+				E096683E2CE4F3AF000B47BC /* Models */,
+				E09668402CE4F3BB000B47BC /* Views */,
 				E0C4C8D12A15448400E859BD /* Preview Content */,
 			);
 			path = EuropeanCountries;
@@ -73,11 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				E0C4C8D22A15448400E859BD /* Preview Assets.xcassets */,
-				E0C4C8D92A1544BE00E859BD /* Country.swift */,
-				E0C4C8DB2A1544D000E859BD /* CountryView.swift */,
-				E0C4C8DD2A1544F300E859BD /* CountryDetailsView.swift */,
-				E0C4C8DF2A15450700E859BD /* CountryManager.swift */,
-				E0C4C8E12A15451F00E859BD /* MembershipView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -97,6 +115,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				E09668482CE4F5FE000B47BC /* Resources */,
+			);
 			name = EuropeanCountries;
 			productName = EuropeanCountries;
 			productReference = E0C4C8C82A15448000E859BD /* EuropeanCountries.app */;
@@ -110,7 +131,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					E0C4C8C72A15448000E859BD = {
 						CreatedOnToolsVersion = 14.2;
@@ -141,7 +162,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C4C8D32A15448400E859BD /* Preview Assets.xcassets in Resources */,
-				E0C4C8D02A15448400E859BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +221,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -261,6 +282,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EuropeanCountries/Preview Content\"";
+				DEVELOPMENT_TEAM = QQ8ZQ3AZ34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EuropeanCountries/Preview Content\"";
+				DEVELOPMENT_TEAM = QQ8ZQ3AZ34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

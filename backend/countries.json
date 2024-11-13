@@ -1,0 +1,263 @@
+[
+    {
+      "code": "AL",
+      "name": "Albania",
+      "area": 28748,
+      "population": 2877797,
+      "isMember": false,
+      "isSchengen": false,
+      "isEuroZone": false
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "area": 83879,
+      "population": 8955102,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "area": 30528,
+      "population": 11589623,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "area": 110993,
+      "population": 6927288,
+      "isMember": true,
+      "isSchengen": false,
+      "isEuroZone": false
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "area": 56594,
+      "population": 3884510,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "area": 9251,
+      "population": 1207359,
+      "isMember": true,
+      "isSchengen": false,
+      "isEuroZone": true
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "area": 78866,
+      "population": 10708981,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": false
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "area": 42933,
+      "population": 5831404,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": false
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "area": 45228,
+      "population": 1328976,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "area": 338435,
+      "population": 5555300,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "area": 551695,
+      "population": 67413000,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "area": 357022,
+      "population": 83166711,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "EL",
+      "name": "Greece",
+      "area": 131957,
+      "population": 10715549,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "area": 93030,
+      "population": 9684679,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": false
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "area": 103000,
+      "population": 376248,
+      "isMember": false,
+      "isSchengen": true,
+      "isEuroZone": false
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "area": 70273,
+      "population": 5055000,
+      "isMember": true,
+      "isSchengen": false,
+      "isEuroZone": true
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "area": 301340,
+      "population": 60317116,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "area": 64589,
+      "population": 1847000,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "area": 65300,
+      "population": 2794700,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "area": 2586,
+      "population": 645397,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "area": 316,
+      "population": 514564,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "area": 41543,
+      "population": 17530000,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "area": 312696,
+      "population": 37950802,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": false
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "area": 92212,
+      "population": 10305564,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "area": 238397,
+      "population": 19237691,
+      "isMember": true,
+      "isSchengen": false,
+      "isEuroZone": false
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "area": 505992,
+      "population": 47450795,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": true
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "area": 450295,
+      "population": 10379295,
+      "isMember": true,
+      "isSchengen": true,
+      "isEuroZone": false
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "area": 41284,
+      "population": 8715490,
+      "isMember": false,
+      "isSchengen": true,
+      "isEuroZone": false
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "area": 243610,
+      "population": 67114900,
+      "isMember": false,
+      "isSchengen": false,
+      "isEuroZone": false
+    }
+  ]

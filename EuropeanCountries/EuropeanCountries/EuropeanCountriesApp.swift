@@ -1,9 +1,3 @@
-//
-//  EuropeanCountriesApp.swift
-//  EuropeanCountries
-//
-//  Created by Anton Lahtinen on 17.5.2023.
-//
 
 import SwiftUI
 
@@ -19,6 +13,7 @@ struct EuropeanCountries: App {
     var body: some Scene {
         WindowGroup {
             ContentView().environmentObject(manager)
+                .preferredColorScheme(.light)
         }
     }
 }
