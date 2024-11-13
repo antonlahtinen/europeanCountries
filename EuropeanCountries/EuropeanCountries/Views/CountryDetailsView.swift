@@ -10,8 +10,8 @@ struct CountryDetailsView: View {
                 .font(.system(size: 30))
             
             HStack(spacing: 40){
-                DetailItem(title: "Area", value: "\(country.area) km²", systemImage: "map")
-                DetailItem(title: "Population", value: "\(country.population)", systemImage: "person.2.fill")
+                DetailItem(title: "Area", value: "\(country.formattedArea) km²", systemImage: "map")
+                DetailItem(title: "Population", value: "\(country.formattedPopulation)", systemImage: "person.2.fill")
                 DetailItem(title: "Density", value: "\(country.populationDensity) /km²", systemImage: "figure.stand.line.dotted.figure.stand")
             }
         }
