@@ -1,13 +1,14 @@
-# European countries iOS app
+# European countries SwiftUI App
 
-My first iOS app using Swift and SwiftUI. Fetches information from URL about members and former members of European Union and shows them in a list. 
+A SwiftUI-based iOS application that provides comprehensive information about European countries, their memberships, and geographical locations.
 
-# Pictures
-<img width="350" height="750" alt="Pic1" src="https://github.com/antonlahtinen/europeanCountries/assets/115111370/87605251-7e6a-4aae-94ba-91c1d69d3a7b">
-<img width="350" height="750" alt="Pic2" src="https://github.com/antonlahtinen/europeanCountries/assets/115111370/455c6a77-0aab-4b5c-9b73-f944f0b03af3">
+## Key Features
 
-<img width="350" height="750" alt="Pic3" src="https://github.com/antonlahtinen/europeanCountries/assets/115111370/9d8f9036-df10-4c74-8d5a-e2afd47ce932">
+- Interactive Map Integration: Utilizes MapKit to display country locations with custom annotations and dynamic region focusing
 
-<img width="350" height="750" alt="Pic4" src="https://github.com/antonlahtinen/europeanCountries/assets/115111370/0ce7dce3-f9df-41ac-a4c0-0fbe4e9aff6f">
+- Real-time Data: Fetches country data from a REST API endpoint, providing up-to-date information about European nations
 
-
+## Pictures
+<img width="350" height="750" alt="Pic2" src="https://github.com/user-attachments/assets/43f49ee5-7246-487f-a9b0-feb52057a5d2">
+<img width="350" height="750" alt="Pic1" src="https://github.com/user-attachments/assets/2eec8ec0-b1a8-4035-a346-bda3d0cfc3a2">
+<img width="350" height="750" alt="Pic3" src="https://github.com/user-attachments/assets/3505f2bd-6980-476a-b4ba-0c0c14bc0f7d">
